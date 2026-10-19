@@ -1,0 +1,630 @@
+{
+  "version": 2,
+  "versionNote": "v1 (2026-09-18) was the twelve constructions now in take 1, numbering unchanged. v2 (2026-10-01) added items 13 onward and re-cut item 9 with a pause between the doubled word.",
+  "voice": "Samantha",
+  "rate": 170,
+  "dictionary": [
+    "Cafe Meria",
+    "Meria Chai",
+    "Halopen",
+    "HookGenius",
+    "Puana"
+  ],
+  "takes": [
+    {
+      "id": 1,
+      "say": "It works just as good. Me and him went to the store. I could care less. We was running late. I should of checked it first. There's three files left. I'm gonna refactor the parser. This is real important. Um, I think the, [[slnc 300]] the config is wrong. Irregardless of the deadline, who did you give it to? It don't matter."
+    },
+    {
+      "id": 2,
+      "say": "Honestly, this shit is broken. What the hell happened to the build? That's a damn good idea. It's a fucking mess in there. I seen it yesterday. He ain't coming to the meeting."
+    },
+    {
+      "id": 3,
+      "say": "Run npm test dash dash watch. Then run N P X prisma migrate. The use effect hook fires twice. Open slash users slash jesse slash developer. We shipped version one point eight point three seven."
+    },
+    {
+      "id": 4,
+      "say": "It cost five hundred bucks. That's about ten grand a year. We opened back in twenty twenty six. Order it from Cafe Meria. Meria Chai ships on Monday. Halopen is running on my Mac. HookGenius writes the lyrics."
+    },
+    {
+      "id": 5,
+      "say": "Ship it today period. Is the build green question mark. Apples comma oranges comma and pears. Um, so the deploy failed. You know, like, it kind of works. I, [[slnc 250]] I really think so. It was very very slow. No no no, that's wrong."
+    },
+    {
+      "id": 6,
+      "say": "Y'all should try it. I wanna ship it tonight. We gotta fix this. Less people showed up. That stays between you and I. I did good on the test. Try and fix it before lunch."
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "take": 1,
+      "kind": "grammar",
+      "tier": "headline",
+      "spoken": [
+        "just as good"
+      ],
+      "altered": [
+        "just as well"
+      ]
+    },
+    {
+      "id": 2,
+      "take": 1,
+      "kind": "grammar",
+      "tier": "headline",
+      "spoken": [
+        "me and him went"
+      ],
+      "altered": [
+        "he and i went"
+      ]
+    },
+    {
+      "id": 3,
+      "take": 1,
+      "kind": "idiom",
+      "tier": "headline",
+      "spoken": [
+        "i could care less"
+      ],
+      "altered": [
+        "i couldn't care less"
+      ]
+    },
+    {
+      "id": 4,
+      "take": 1,
+      "kind": "grammar",
+      "tier": "headline",
+      "spoken": [
+        "we was running late"
+      ],
+      "altered": [
+        "we were running late"
+      ]
+    },
+    {
+      "id": 5,
+      "take": 1,
+      "kind": "grammar",
+      "tier": "separate",
+      "why": "homophone: \"should of\" and \"should have\" are acoustically identical, so this can never decide an edit",
+      "spoken": [
+        "should of checked"
+      ],
+      "altered": [
+        "should have checked",
+        "should've checked"
+      ]
+    },
+    {
+      "id": 6,
+      "take": 1,
+      "kind": "grammar",
+      "tier": "headline",
+      "spoken": [
+        "there's three files",
+        "there's 3 files"
+      ],
+      "altered": [
+        "there are three files",
+        "there are 3 files"
+      ]
+    },
+    {
+      "id": 7,
+      "take": 1,
+      "kind": "register",
+      "tier": "headline",
+      "spoken": [
+        "i'm gonna refactor"
+      ],
+      "altered": [
+        "going to refactor"
+      ]
+    },
+    {
+      "id": 8,
+      "take": 1,
+      "kind": "grammar",
+      "tier": "headline",
+      "spoken": [
+        "this is real important"
+      ],
+      "altered": [
+        "this is really important"
+      ]
+    },
+    {
+      "id": 9,
+      "take": 1,
+      "kind": "disfluency",
+      "tier": "separate",
+      "why": "stutter removal is the most defensible edit; re-cut with a pause in v2, still reported with the other disfluencies",
+      "spoken": [
+        "i think the the config"
+      ],
+      "altered": [
+        "i think the config"
+      ]
+    },
+    {
+      "id": 10,
+      "take": 1,
+      "kind": "word",
+      "tier": "headline",
+      "spoken": [
+        "irregardless of the deadline"
+      ],
+      "altered": [
+        "regardless of the deadline"
+      ]
+    },
+    {
+      "id": 11,
+      "take": 1,
+      "kind": "grammar",
+      "tier": "headline",
+      "spoken": [
+        "who did you give it to"
+      ],
+      "altered": [
+        "to whom did you give it"
+      ]
+    },
+    {
+      "id": 12,
+      "take": 1,
+      "kind": "grammar",
+      "tier": "headline",
+      "spoken": [
+        "it don't matter"
+      ],
+      "altered": [
+        "it doesn't matter"
+      ]
+    },
+    {
+      "id": 13,
+      "take": 2,
+      "kind": "omission",
+      "tier": "headline",
+      "spoken": [
+        "this shit is broken"
+      ],
+      "altered": [
+        "this is broken",
+        "this stuff is broken",
+        "this s is broken",
+        "this thing is broken"
+      ]
+    },
+    {
+      "id": 14,
+      "take": 2,
+      "kind": "omission",
+      "tier": "headline",
+      "spoken": [
+        "what the hell happened"
+      ],
+      "altered": [
+        "what happened",
+        "what the heck happened"
+      ]
+    },
+    {
+      "id": 15,
+      "take": 2,
+      "kind": "omission",
+      "tier": "headline",
+      "spoken": [
+        "a damn good idea"
+      ],
+      "altered": [
+        "a good idea",
+        "a darn good idea"
+      ]
+    },
+    {
+      "id": 16,
+      "take": 2,
+      "kind": "omission",
+      "tier": "headline",
+      "spoken": [
+        "a fucking mess"
+      ],
+      "altered": [
+        "a mess",
+        "a f mess",
+        "a freaking mess"
+      ]
+    },
+    {
+      "id": 17,
+      "take": 3,
+      "kind": "technical",
+      "tier": "separate",
+      "why": "arrives or does not: a spoken flag has no single written form an edit can be read from",
+      "spoken": [
+        "npm test --watch",
+        "npm test--watch",
+        "npm test dash dash watch",
+        "npm test -- watch"
+      ],
+      "altered": []
+    },
+    {
+      "id": 18,
+      "take": 3,
+      "kind": "technical",
+      "tier": "separate",
+      "why": "arrives or does not",
+      "spoken": [
+        "npx prisma migrate",
+        "n p x prisma migrate"
+      ],
+      "altered": []
+    },
+    {
+      "id": 19,
+      "take": 3,
+      "kind": "technical",
+      "tier": "separate",
+      "why": "arrives or does not",
+      "spoken": [
+        "useeffect hook fires twice",
+        "use effect hook fires twice"
+      ],
+      "altered": []
+    },
+    {
+      "id": 20,
+      "take": 3,
+      "kind": "technical",
+      "tier": "separate",
+      "why": "arrives or does not",
+      "spoken": [
+        "users jesse developer",
+        "users jessie developer",
+        "slash users slash jesse slash developer"
+      ],
+      "altered": []
+    },
+    {
+      "id": 21,
+      "take": 3,
+      "kind": "technical",
+      "tier": "separate",
+      "why": "arrives or does not",
+      "spoken": [
+        "version 1.8.37",
+        "version one point eight point three seven",
+        "v1.8.37"
+      ],
+      "altered": []
+    },
+    {
+      "id": 22,
+      "take": 4,
+      "kind": "number",
+      "tier": "headline",
+      "spoken": [
+        "five hundred bucks",
+        "500 bucks"
+      ],
+      "altered": [
+        "five hundred dollars",
+        "500 dollars",
+        "$500"
+      ]
+    },
+    {
+      "id": 23,
+      "take": 4,
+      "kind": "number",
+      "tier": "headline",
+      "spoken": [
+        "ten grand",
+        "10 grand"
+      ],
+      "altered": [
+        "ten thousand",
+        "10,000",
+        "10000",
+        "10k"
+      ]
+    },
+    {
+      "id": 24,
+      "take": 4,
+      "kind": "number",
+      "tier": "separate",
+      "why": "arrives or does not: digits and words are the same number",
+      "spoken": [
+        "twenty twenty six",
+        "2026"
+      ],
+      "altered": []
+    },
+    {
+      "id": 25,
+      "take": 4,
+      "kind": "dictionary",
+      "tier": "separate",
+      "why": "a misspelled name is the recogniser and the dictionary, not an edit",
+      "spoken": [
+        "cafe meria",
+        "café meria"
+      ],
+      "altered": [
+        "cafe maria",
+        "café maria",
+        "cafe mariah"
+      ]
+    },
+    {
+      "id": 26,
+      "take": 4,
+      "kind": "dictionary",
+      "tier": "separate",
+      "why": "a misspelled name is the recogniser and the dictionary, not an edit",
+      "spoken": [
+        "meria chai"
+      ],
+      "altered": [
+        "maria chai",
+        "mariah chai",
+        "maria chi"
+      ]
+    },
+    {
+      "id": 27,
+      "take": 4,
+      "kind": "dictionary",
+      "tier": "separate",
+      "why": "a misspelled name is the recogniser and the dictionary, not an edit",
+      "spoken": [
+        "halopen"
+      ],
+      "altered": [
+        "halo pen",
+        "hello pen"
+      ]
+    },
+    {
+      "id": 28,
+      "take": 4,
+      "kind": "dictionary",
+      "tier": "separate",
+      "why": "a misspelled name is the recogniser and the dictionary, not an edit",
+      "spoken": [
+        "hookgenius"
+      ],
+      "altered": [
+        "hook genius"
+      ]
+    },
+    {
+      "id": 29,
+      "take": 5,
+      "kind": "spoken-punctuation",
+      "tier": "separate",
+      "why": "word or symbol is a product decision not yet made; what is measured is that it is the same every time",
+      "spoken": [
+        "ship it today period"
+      ],
+      "altered": [
+        "ship it today"
+      ]
+    },
+    {
+      "id": 30,
+      "take": 5,
+      "kind": "spoken-punctuation",
+      "tier": "separate",
+      "why": "word or symbol is a product decision not yet made; what is measured is that it is the same every time",
+      "spoken": [
+        "build green question mark"
+      ],
+      "altered": [
+        "is the build green"
+      ]
+    },
+    {
+      "id": 31,
+      "take": 5,
+      "kind": "spoken-punctuation",
+      "tier": "separate",
+      "why": "word or symbol is a product decision not yet made; what is measured is that it is the same every time",
+      "spoken": [
+        "apples comma oranges"
+      ],
+      "altered": [
+        "apples oranges"
+      ]
+    },
+    {
+      "id": 32,
+      "take": 5,
+      "kind": "disfluency",
+      "tier": "separate",
+      "why": "filler removal is the most defensible edit; Verbatim is defined as keeping it",
+      "spoken": [
+        "um so the deploy failed",
+        "uh so the deploy failed",
+        "umm so the deploy failed"
+      ],
+      "altered": [
+        "so the deploy failed"
+      ]
+    },
+    {
+      "id": 33,
+      "take": 5,
+      "kind": "disfluency",
+      "tier": "separate",
+      "why": "filler removal is the most defensible edit; Verbatim is defined as keeping it",
+      "spoken": [
+        "you know like it kind of works"
+      ],
+      "altered": [
+        "it kind of works"
+      ]
+    },
+    {
+      "id": 34,
+      "take": 5,
+      "kind": "disfluency",
+      "tier": "separate",
+      "why": "stutter removal is the most defensible edit; Verbatim is defined as keeping it",
+      "spoken": [
+        "i i really think so"
+      ],
+      "altered": [
+        "i really think so"
+      ]
+    },
+    {
+      "id": 35,
+      "take": 5,
+      "kind": "repetition",
+      "tier": "headline",
+      "spoken": [
+        "very very slow"
+      ],
+      "altered": [
+        "very slow"
+      ]
+    },
+    {
+      "id": 36,
+      "take": 5,
+      "kind": "repetition",
+      "tier": "headline",
+      "spoken": [
+        "no no no that's wrong"
+      ],
+      "altered": [
+        "no that's wrong"
+      ]
+    },
+    {
+      "id": 37,
+      "take": 2,
+      "kind": "grammar",
+      "tier": "headline",
+      "spoken": [
+        "i seen it yesterday"
+      ],
+      "altered": [
+        "i saw it yesterday",
+        "i've seen it yesterday",
+        "i have seen it yesterday"
+      ]
+    },
+    {
+      "id": 38,
+      "take": 2,
+      "kind": "register",
+      "tier": "headline",
+      "spoken": [
+        "he ain't coming"
+      ],
+      "altered": [
+        "he isn't coming",
+        "he's not coming",
+        "he is not coming"
+      ]
+    },
+    {
+      "id": 39,
+      "take": 6,
+      "kind": "register",
+      "tier": "headline",
+      "spoken": [
+        "y'all should try it"
+      ],
+      "altered": [
+        "you all should try it",
+        "you should try it"
+      ]
+    },
+    {
+      "id": 40,
+      "take": 6,
+      "kind": "register",
+      "tier": "headline",
+      "spoken": [
+        "i wanna ship it tonight"
+      ],
+      "altered": [
+        "i want to ship it tonight"
+      ]
+    },
+    {
+      "id": 41,
+      "take": 6,
+      "kind": "register",
+      "tier": "headline",
+      "spoken": [
+        "we gotta fix this"
+      ],
+      "altered": [
+        "we have to fix this",
+        "we've got to fix this",
+        "we got to fix this",
+        "we need to fix this"
+      ]
+    },
+    {
+      "id": 42,
+      "take": 6,
+      "kind": "grammar",
+      "tier": "headline",
+      "spoken": [
+        "less people showed up"
+      ],
+      "altered": [
+        "fewer people showed up"
+      ]
+    },
+    {
+      "id": 43,
+      "take": 6,
+      "kind": "grammar",
+      "tier": "headline",
+      "spoken": [
+        "between you and i"
+      ],
+      "altered": [
+        "between you and me"
+      ]
+    },
+    {
+      "id": 44,
+      "take": 6,
+      "kind": "grammar",
+      "tier": "headline",
+      "spoken": [
+        "i did good on the test"
+      ],
+      "altered": [
+        "i did well on the test"
+      ]
+    },
+    {
+      "id": 45,
+      "take": 6,
+      "kind": "idiom",
+      "tier": "headline",
+      "spoken": [
+        "try and fix it"
+      ],
+      "altered": [
+        "try to fix it"
+      ]
+    }
+  ]
+}

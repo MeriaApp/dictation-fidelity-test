@@ -1,0 +1,1 @@
+Run npm test --watch then run npx prisma migrate. The useEffect hook fires twice. Open /Users/jesse/developer. We shipped version 1.8.37.
